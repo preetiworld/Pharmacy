@@ -1,25 +1,4 @@
-// import React from "react";
-// import { View, Text, Button } from "react-native";
-// import AsyncStorage from "@react-native-async-storage/async-storage";
-// import { useRouter } from "expo-router";
 
-// const HomeScreen = () => {
-//   const router = useRouter();
-
-//   const handleLogout = async () => {
-//     await AsyncStorage.removeItem("userToken");
-//     router.replace("/about/signup");
-//   };
-
-//   return (
-//     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-//       <Text style={{ fontSize: 20, marginBottom: 20 }}>🏡 Home Screen</Text>
-//       <Button title="Logout" onPress={handleLogout} />
-//     </View>
-//   );
-// };
-
-// export default HomeScreen;
 
 import {
   StyleSheet,
